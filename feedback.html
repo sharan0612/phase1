@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Feedback</title>
+</head>
+<body>
+  <header>
+    <h1>Submit Feedback</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="grades.html">Grades</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label>Was this website helpful?</label><br>
+    <input type="radio" name="helpful" value="yes"> Yes
+    <input type="radio" name="helpful" value="no"> No<br><br>
+
+    <label for="rating">Rate Us:</label><br>
+    <select id="rating">
+      <option>Excellent</option>
+      <option>Good</option>
+      <option>Average</option>
+      <option>Poor</option>
+    </select><br><br>
+
+    <label for="comments">Your Feedback:</label><br>
+    <textarea id="comments" rows="4" cols="30"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <footer>
+    <p>© 2025 Student Portal</p>
+  </footer>
+</body>
+</html>
